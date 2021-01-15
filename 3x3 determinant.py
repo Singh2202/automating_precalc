@@ -1,5 +1,6 @@
 def determinant(matrix):
-  """Returns the determinant of a 2X2 or 3X3 matrix. Example usage: determinant([[6,5,2], [4,3,2], [4,3,2]]) or determinant([[5,6], [3,3]])."""
+  """Returns the determinant of a 2X2 or 3X3 matrix. Example usage: 
+  determinant([[6,5,2], [4,3,2], [4,3,2]]) or determinant([[5,6], [3,3]])."""
   if len(matrix) == 2:
     determinant = matrix[1][1]*matrix[0][0] - matrix[1][0]*matrix[0][1]
   elif len(matrix) == 3:
