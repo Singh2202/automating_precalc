@@ -1,7 +1,7 @@
 import math
 def components(magnitude, angle):
   """Example usage: components(60, math.pi/2).
-  To enter pi, use math.pi.IndexError"""
+  To enter pi, use math.pi."""
   x = magnitude * math.cos(angle)
   y = magnitude * math.sin(angle)
   if abs(x) < 1e-14: #patch for floating point arithmetic
